@@ -27,7 +27,7 @@ def get_rds_connection(create_db=False):
         
         # Now connect to the specific database
         conn = mysql.connector.connect(
-            host='mcq.c30y8giyaus3.us-east-1.rds.amazonaws.com',
+            host='mcq.czg8iug263qh.us-east-1.rds.amazonaws.com',
             user='root',
             password='Farook22',
             database='mcq'
